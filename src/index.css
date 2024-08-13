@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#header-elements{
+    @media (max-width: 768px) {
+        display: none; 
+      }
+}

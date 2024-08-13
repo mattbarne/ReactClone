@@ -16,7 +16,7 @@ function Hero(){
     const heroStylesheet = {
         position: 'relative',
         minHeight: '100vh',
-        overflow: 'hidden', // Ensure the video and content don't overflow
+        overflow: 'hidden',
     };
 
     const videoStyles = {
@@ -25,14 +25,14 @@ function Hero(){
         left: 0,
         width: '100%',
         height: '100%',
-        objectFit: 'cover', // Ensure the video covers the entire container
+        objectFit: 'cover',
         zIndex: 0,
     };
 
     const textStyles = {
         position: 'relative',
         zIndex: 1,
-        color: 'white', // Ensure the text is visible against the video
+        color: 'white',
         textAlign: 'center',
     };
 

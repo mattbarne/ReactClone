@@ -3,6 +3,7 @@ import Header from './Components/Header'
 import Hero from './Components/Hero'
 import HandcraftCard from './Components/HandcraftCard';
 import Catalog from './Components/Catalog';
+import Footer from './Components/Footer';
 
 function App() {
   return(
@@ -11,6 +12,7 @@ function App() {
     <Hero/>
     <HandcraftCard/>
     <Catalog/>
+    <Footer/>
     </>
   );
 }
