@@ -17,7 +17,3 @@ This repository contains a cloned version of [Vossen](https://vossenwheels.com/)
 
 ### Light Mode
 ![Light Mode](src/assets/vossen%20clone%20light%20preview.png)
-
-<video width="600" controls>
-  <source src="src/assets/vossen%20clone%20video%20preview.mov" type="video/mp4">
-</video>
