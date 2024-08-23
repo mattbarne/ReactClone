@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 import BoxImage1 from '../assets/LC2.jpg';
 import BoxImage2 from '../assets/HF6-4.jpg';
 import {Link} from 'react-router-dom';
 
 function Catalog() {
+
   return (
     <div id='catalog-parent-container' className='bg-white dark:bg-black'>
         {/*Text Container*/}
@@ -25,7 +26,7 @@ function Catalog() {
         {/*Button Container*/}
         <div id='catalog-button' className='flex justify-center items-center'>
             <Link to="/WheelGallery">
-                <button className='outline-[#ABA499] border-solid shadow-none p-5 font-bold text-black dark:text-white lg:mb-[4em]'>EXPLORE ALL WHEELS</button>
+                <button className='outline-[#ABA499] border-solid border-[1px] shadow-none px-4 p-3 font-semibold text-black dark:text-white lg:mb-[4em]'>EXPLORE ALL WHEELS</button>
             </Link>
         </div>
     </div>
