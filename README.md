@@ -4,7 +4,7 @@
 
 This repository contains a cloned version of [Vossen](https://vossenwheels.com/) built using React, Tailwind CSS, and Vite. This project served as my introduction into React, allowing me to explore and develop a project with the framework.
 
-## Framework/Tools
+## Tools Used
 
 - **React**: Utilized for building UI components.
 - **Tailwind CSS**: Utilized for faster CSS styling.
@@ -13,7 +13,7 @@ This repository contains a cloned version of [Vossen](https://vossenwheels.com/)
 ## Preview
 
 ### Dark Mode
-![Dark Mode](src/assets/vossen%20clone%20dark%20preview.png)
+![Dark Mode](src/assets/gitassets/vossen-clone-dark-preview.png)
 
 ### Light Mode
-![Light Mode](src/assets/vossen%20clone%20light%20preview.png)
+![Light Mode](src/assets/gitassets/vossen-clone-light-preview.png)

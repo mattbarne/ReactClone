@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import background from '../assets/HF-5.jpg';
 
 function Hero(){
     const [wordIndex, setWordIndex] = useState(0);
@@ -38,7 +37,7 @@ function Hero(){
 
     return(
         <main className="bg-white">
-            <div id='hero-container' style={heroStylesheet} className="object-contain relative z-1 flex justify-center items-center min-h-screen h-auto w-screen">
+            <div id='hero-container' style={heroStylesheet} className="object-contain pt-[8em] pl-[6em] absolute z-1 flex justify-start items-start min-h-screen h-auto w-screen">
                 <video
                 src="https://vossenwheels.com/wp-content/uploads/2024/07/Web-Banner-Zero-Racing-HF-7-.mp4"
                 type="video/mp4"
@@ -47,8 +46,9 @@ function Hero(){
                 autoPlay
                 loop
                 />
-                <h1 id='hero-text' style={textStyles} className="text-6xl font-thin text-white text-center">
-                    Engineered<br/>{words[wordIndex]}
+                <h1 id='hero-text' style={textStyles} className="text-[8.5em] leading-[98%] text-left font-thin text-white">
+                    Engineered<br/>
+                    <span className='flex'>{words[wordIndex]}</span>
                 </h1>
             </div>
         </main>

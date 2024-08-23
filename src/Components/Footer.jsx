@@ -15,11 +15,13 @@ function Footer(){
         paddingBottom: '1.5em',
         paddingTop: '6em',
         color: '#A0988B',
+        fontWeight: 'bold',
+        letterSpacing: '2px',
     }
 
     return(
         <div id='footer-parent-container' className='bg-[#0B0B0C] py-[6em]'>
-            <div id='footer-top' className='flex justify-between items-center border-solid border-[#7A7164] border-y-[1px] border-l-0 border-r-0 mx-[6em] py-[0.8em]'>
+            <div id='footer-top' className='flex justify-between items-center border-solid border-[#363636] dark:border-[#7A7164] border-y-[1px] border-l-0 border-r-0 mx-[6em] py-[0.8em]'>
                 <div id='footer-socials' className='w-[10em] flex items-center justify-evenly'>
                     <img src={Youtube} />
                     <img src={Instagram} />
@@ -27,9 +29,9 @@ function Footer(){
                     <img src={Twitter} />
                 </div>
                 <img src={Logo} className=' w-[14em] h-[4em]'/>
-                <button className='outline-[#ABA499] border-solid border-[1px] shadow-none px-4 p-3 font-semibold text-black dark:text-white'>REQUEST A QUOTE</button>
+                <button className='outline-[#ABA499] dark:border-solid border-[1px] shadow-none px-5 p-2.5 font-semibold text-black dark:text-white'>REQUEST A QUOTE</button>
             </div>
-            <div id='footer-bottom' className='mx-[6em] flex justify-between'>
+            <div id='footer-bottom' className='mx-[6em] text-white px-[.5em] text-[0.9em] leading-[2em] font-thin flex justify-between'>
                 <div id='footer-bottom-box' style={footerBoxStyle}>
                     <p style={footerBoxHeader}>Wheels</p>
                     <ul>
